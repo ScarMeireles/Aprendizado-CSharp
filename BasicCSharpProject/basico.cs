@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 
+/*  TODO: Aprender a criar funções para cada estrutura e chamá-la na classe main
+    Criar um processo de verificação da execução das funções, para caso seja digitado um campo inválido, ele repita o código novamente invés de fechar o console
+*/
 class basico
 {
     static void Main()
