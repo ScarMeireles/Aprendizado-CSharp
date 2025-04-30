@@ -1,7 +1,7 @@
 # Aprendizado-CSharp
 Aprendizado de sintaxe básica C#
 
-# MyFirstCSharpProject
+# BasicCSharpProject
 
 Este projeto foi criado para aprender e praticar a sintaxe básica da linguagem C#. Ele cobre conceitos fundamentais como declaração de variáveis, operadores, entrada e saída de dados, estruturas de controle e laços de repetição.
 
