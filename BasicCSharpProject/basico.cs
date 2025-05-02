@@ -1,9 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
+using BasicCSharpProject.Services;
 
-/*  TODO: Aprender a criar funções para cada estrutura e chamá-la na classe main
-    Criar um processo de verificação da execução das funções, para caso seja digitado um campo inválido, ele repita o código novamente invés de fechar o console
-*/
+/*  TODO: Criar um processo de verificação da execução das funções, para caso seja digitado um campo inválido, ele repita o código novamente invés de fechar o console */
 class basico
 {
     static void Main()
@@ -54,6 +52,7 @@ class basico
 
         //Usando Interpolação. 
         Console.WriteLine($"Olá, {nome2}. Seja bem vindo!");
+        Console.WriteLine("");
         // A interpolação É quando você insere diretamente o valor de uma variável dentro da própria string,
         //usando colchetes { } e um símbolo $ no início da string para indicar que ela é "interpolada".
         // O símbolo $ informa ao compilador que dentro da string haverá expressões a serem avaliadas, e não apenas texto puro. 
@@ -68,52 +67,16 @@ class basico
 
         Console.WriteLine("Digite sua Idade");
         int idade = int.Parse(Console.ReadLine());
-
-        if (idade >= 18)
-        {
-            Console.WriteLine("Você é maior de idade.");
-        }
-        else if (idade < 18 && idade > 0)
-        {
-            Console.WriteLine("Você é menor de idade.");
-        } else {
-            Console.WriteLine("Idade Inválida.");
-        }
+        Verificador.VerificarIdade(idade);
+        Console.WriteLine("");
 
 
 
-            //Switch:
-            Console.WriteLine("Digite um número de 1 a 7 para o dia da semana:");
+        //Switch:
+        Console.WriteLine("Digite um número de 1 a 7 para o dia da semana:");
         int dia = int.Parse(Console.ReadLine());
-        switch (dia)
-        {
-            case 1:
-                Console.WriteLine("Hoje é Domingo.");
-                break;
-            case 2:
-                Console.WriteLine("Hoje é Segunda-feira.");
-                break;
-            case 3:
-                Console.WriteLine("Hoje é Terça-feira.");
-                break;
-            case 4:
-                Console.WriteLine("Hoje é Quarta-feira.");
-                break;
-            case 5:
-                Console.WriteLine("Hoje é Quinta-feira.");
-                break;
-            case 6:
-                Console.WriteLine("Hoje é Sexta-feira.");
-                break;
-            case 7:
-                Console.WriteLine("Hoje é Sábado.");
-                break;
-
-            default:
-        Console.WriteLine("Dia Inválido.");
-        break;
-        }
-
+        Verificador.VerificarDiaSemana(dia);
+        Console.WriteLine("");
 
 
         //Laços(repetição):
@@ -129,12 +92,11 @@ class basico
                 Console.Write(i + " e ");
             } else
             {
-                Console.Write(i + ".");
+                Console.WriteLine(i + ".");
             } 
         }
 
-        Console.WriteLine();
-        Console.WriteLine();
+        Console.WriteLine("");
 
         Console.WriteLine("Estrutura de repetição usando While:");
         int x = 0;
@@ -150,7 +112,7 @@ class basico
             }
             else
             {
-                Console.Write(x + ".");
+                Console.WriteLine(x + ".");
             }
             x++;
         }
