@@ -1,0 +1,14 @@
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\bin\Debug\net9.0\BasicCSharpProject.exe
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\bin\Debug\net9.0\BasicCSharpProject.deps.json
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\bin\Debug\net9.0\BasicCSharpProject.runtimeconfig.json
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\bin\Debug\net9.0\BasicCSharpProject.dll
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\bin\Debug\net9.0\BasicCSharpProject.pdb
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.AssemblyInfoInputs.cache
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.AssemblyInfo.cs
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.csproj.CoreCompileInputs.cache
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.dll
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\refint\BasicCSharpProject.dll
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.pdb
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.genruntimeconfig.cache
+C:\Users\spiar\OneDrive\Documentos\Projetos\BasicCSharpProject\obj\Debug\net9.0\ref\BasicCSharpProject.dll
