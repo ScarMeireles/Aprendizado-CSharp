@@ -11,7 +11,7 @@ class basico
 
         //  1. Estrutura de um Programa em C#
 
-        Console.WriteLine("Ola, mundo!");
+        Console.WriteLine("Aprendizado básico em C#");
         //using System; → importa funcionalidades básicas(como entrada / saída).
         //Main() → ponto de entrada do programa.
         //Console.WriteLine() → imprime no terminal.
@@ -51,7 +51,14 @@ class basico
 
         Console.Write("Digite seu nome: ");
         string nome2 = Console.ReadLine();
-        Console.WriteLine("Olá, " + nome2);
+
+        //Usando Interpolação. 
+        Console.WriteLine($"Olá, {nome2}. Seja bem vindo!");
+        // A interpolação É quando você insere diretamente o valor de uma variável dentro da própria string,
+        //usando colchetes { } e um símbolo $ no início da string para indicar que ela é "interpolada".
+        // O símbolo $ informa ao compilador que dentro da string haverá expressões a serem avaliadas, e não apenas texto puro. 
+        //Sem ele, os colchetes {} não funcionam como esperado.
+
 
 
 
@@ -64,13 +71,13 @@ class basico
 
         if (idade >= 18)
         {
-            Console.WriteLine("Maior de idade");
+            Console.WriteLine("Você é maior de idade.");
         }
-        else if (idade < 18 && idade> 0)
+        else if (idade < 18 && idade > 0)
         {
-            Console.WriteLine("Menor de idade");
+            Console.WriteLine("Você é menor de idade.");
         } else {
-            Console.WriteLine("Idade Inválida");
+            Console.WriteLine("Idade Inválida.");
         }
 
 
@@ -81,43 +88,43 @@ class basico
         switch (dia)
         {
             case 1:
-                Console.WriteLine("Domingo");
+                Console.WriteLine("Hoje é Domingo.");
                 break;
             case 2:
-                Console.WriteLine("Segunda");
+                Console.WriteLine("Hoje é Segunda-feira.");
                 break;
             case 3:
-                Console.WriteLine("Terça");
+                Console.WriteLine("Hoje é Terça-feira.");
                 break;
             case 4:
-                Console.WriteLine("Quarta");
+                Console.WriteLine("Hoje é Quarta-feira.");
                 break;
             case 5:
-                Console.WriteLine("Quinta");
+                Console.WriteLine("Hoje é Quinta-feira.");
                 break;
             case 6:
-                Console.WriteLine("Sexta");
+                Console.WriteLine("Hoje é Sexta-feira.");
                 break;
             case 7:
-                Console.WriteLine("Sábado");
+                Console.WriteLine("Hoje é Sábado.");
                 break;
 
             default:
-        Console.WriteLine("Dia Inválido");
+        Console.WriteLine("Dia Inválido.");
         break;
         }
 
 
 
         //Laços(repetição):
-        Console.WriteLine("Usando For:");
-        for (int i = 0; i < 10; i++)
+        Console.WriteLine("Estrutura de repetição usando For:");
+        for (int i = 0; i < 11; i++)
         {
-            if (i < 8)
+            if (i < 9)
             {
                 Console.Write(i + ", ");
             }
-            else if (i == 8)
+            else if (i == 9)
             {
                 Console.Write(i + " e ");
             } else
@@ -129,15 +136,15 @@ class basico
         Console.WriteLine();
         Console.WriteLine();
 
-        Console.WriteLine("Usando While:");
+        Console.WriteLine("Estrutura de repetição usando While:");
         int x = 0;
-        while (x < 10)
+        while (x < 11)
         {
-            if (x < 8)
+            if (x < 9)
             {
                 Console.Write(x + ", ");
             }
-            else if (x == 8)
+            else if (x == 9)
             {
                 Console.Write(x + " e ");
             }
