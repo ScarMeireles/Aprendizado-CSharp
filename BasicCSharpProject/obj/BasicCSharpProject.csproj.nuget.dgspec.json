@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spiar\\OneDrive\\Documentos\\Projetos\\BasicCSharpProject\\BasicCSharpProject.csproj": {}
+    "C:\\Users\\arthur.dias\\source\\repos\\Aprendizado-CSharp\\BasicCSharpProject\\BasicCSharpProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spiar\\OneDrive\\Documentos\\Projetos\\BasicCSharpProject\\BasicCSharpProject.csproj": {
+    "C:\\Users\\arthur.dias\\source\\repos\\Aprendizado-CSharp\\BasicCSharpProject\\BasicCSharpProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spiar\\OneDrive\\Documentos\\Projetos\\BasicCSharpProject\\BasicCSharpProject.csproj",
+        "projectUniqueName": "C:\\Users\\arthur.dias\\source\\repos\\Aprendizado-CSharp\\BasicCSharpProject\\BasicCSharpProject.csproj",
         "projectName": "BasicCSharpProject",
-        "projectPath": "C:\\Users\\spiar\\OneDrive\\Documentos\\Projetos\\BasicCSharpProject\\BasicCSharpProject.csproj",
-        "packagesPath": "C:\\Users\\spiar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spiar\\OneDrive\\Documentos\\Projetos\\BasicCSharpProject\\obj\\",
+        "projectPath": "C:\\Users\\arthur.dias\\source\\repos\\Aprendizado-CSharp\\BasicCSharpProject\\BasicCSharpProject.csproj",
+        "packagesPath": "C:\\Users\\arthur.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arthur.dias\\source\\repos\\Aprendizado-CSharp\\BasicCSharpProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\spiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arthur.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

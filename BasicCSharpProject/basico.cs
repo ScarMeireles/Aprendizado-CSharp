@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using BasicCSharpProject.Services;
-
+using BasicCSharpProject.Anotações;
 /*  TODO: Criar um processo de verificação da execução das funções, para caso seja digitado um campo inválido, ele repita o código novamente invés de fechar o console */
 class basico
 {
@@ -116,6 +116,10 @@ class basico
             x++;
         }
 
+        Console.WriteLine("");
+        testeString.TesteString("Esse é um teste das anotacoes  sobre strings!");
+
+
 
         //      Códigos de Escape úteis
         //      Alguns caracteres especiais são representados com códigos de escape:
@@ -123,7 +127,7 @@ class basico
         //      \t – tabulação
         //      \\ – barra invertida
         //      \" – aspas duplas
-        Console.WriteLine("\n Pressione Enter para sair...");
+        Console.WriteLine("\nPressione Enter para sair...");
         Console.ReadLine();
     }
 }
