@@ -21,7 +21,6 @@ C:\Users\arthur.dias\source\repos\Aprendizado-CSharp\BasicCSharpProject\obj\Debu
 C:\Users\arthur.dias\source\repos\Aprendizado-CSharp\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.AssemblyInfoInputs.cache
 C:\Users\arthur.dias\source\repos\Aprendizado-CSharp\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.AssemblyInfo.cs
 C:\Users\arthur.dias\source\repos\Aprendizado-CSharp\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.csproj.CoreCompileInputs.cache
-C:\Users\arthur.dias\source\repos\Aprendizado-CSharp\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.sourcelink.json
 C:\Users\arthur.dias\source\repos\Aprendizado-CSharp\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.dll
 C:\Users\arthur.dias\source\repos\Aprendizado-CSharp\BasicCSharpProject\obj\Debug\net9.0\refint\BasicCSharpProject.dll
 C:\Users\arthur.dias\source\repos\Aprendizado-CSharp\BasicCSharpProject\obj\Debug\net9.0\BasicCSharpProject.pdb

@@ -2,12 +2,12 @@
 using BasicCSharpProject.Services;
 using BasicCSharpProject.Anotações;
 /*  TODO: Criar um processo de verificação da execução das funções, para caso seja digitado um campo inválido, ele repita o código novamente invés de fechar o console */
-class basico
+class Basico
 {
     static void Main()
     {
 
-        //  1. Estrutura de um Programa em C#
+        //  Estrutura de um Programa em C#
 
         Console.WriteLine("Aprendizado básico em C#");
         //using System; → importa funcionalidades básicas(como entrada / saída).
@@ -15,24 +15,7 @@ class basico
         //Console.WriteLine() → imprime no terminal.
 
 
-
-        //  2.Variáveis e Tipos de Dados
-
-        
-        double altura = 1.75;
-        char letra = 'A';
-        string nome1 = "João";
-        bool ativo = true;
-
-        //int: números inteiros
-        //double: números com casas decimais
-        //char: um único caractere
-        //string: texto
-        //bool: verdadeiro / falso
-
-
-
-        //  3. Operadores
+        //  Operadores
         //Como fazer contas e comparações:
         //Aritméticos: +, -, *, /, %
         //Comparação: ==, !=, >, <, >=, <=
@@ -41,18 +24,16 @@ class basico
         int a = 10;
         int b = 20;
         bool resultado = a < b && b != 0;
+        Console.WriteLine(resultado);
 
 
-
-        //  4.Entrada e Saída de Dados
+        //  Entrada e Saída de Dados
         //Ler dados do usuário com Console.ReadLine():
 
-        Console.Write("Digite seu nome: ");
-        string nome2 = Console.ReadLine();
+        Verificador.VerificarNome();
 
-        //Usando Interpolação. 
-        Console.WriteLine($"Olá, {nome2}. Seja bem vindo!");
-        Console.WriteLine("");
+
+
         // A interpolação É quando você insere diretamente o valor de uma variável dentro da própria string,
         //usando colchetes { } e um símbolo $ no início da string para indicar que ela é "interpolada".
         // O símbolo $ informa ao compilador que dentro da string haverá expressões a serem avaliadas, e não apenas texto puro. 
@@ -60,12 +41,23 @@ class basico
 
 
 
-        //  5.Estruturas de Controle
+        //  Estruturas de Controle
         //Controlar o fluxo do programa:
         //Condicional: if, else if, else
 
-        Console.WriteLine("Digite sua Idade");
-        int idade = int.Parse(Console.ReadLine());
+        int idade;
+        while (true)
+        {
+            Console.Write("Digite sua idade: ");
+            string? entrada = Console.ReadLine();
+
+            if (int.TryParse(entrada, out idade) && idade > 0) // Verifica se a idade é um número e se é maior que 0.
+            {
+                break; 
+            }
+            Console.WriteLine("Idade inválida. Tente novamente.\n");
+        }
+
         Verificador.VerificarIdade(idade);
         Console.WriteLine("");
 
@@ -73,51 +65,21 @@ class basico
 
         //Switch:
         Console.WriteLine("Digite um número de 1 a 7 para o dia da semana:");
-        int dia = int.Parse(Console.ReadLine());
+        int dia = int.Parse(Console.ReadLine()!);
         Verificador.VerificarDiaSemana(dia);
         Console.WriteLine("");
 
 
         //Laços(repetição):
-        Console.WriteLine("Estrutura de repetição usando For:");
-        for (int i = 0; i < 11; i++)
-        {
-            if (i < 9)
-            {
-                Console.Write(i + ", ");
-            }
-            else if (i == 9)
-            {
-                Console.Write(i + " e ");
-            } else
-            {
-                Console.WriteLine(i + ".");
-            } 
-        }
+        Repeticao.UsingFor();
+        Repeticao.UsingWhile();
+        
 
         Console.WriteLine("");
-
-        Console.WriteLine("Estrutura de repetição usando While:");
-        int x = 0;
-        while (x < 11)
-        {
-            if (x < 9)
-            {
-                Console.Write(x + ", ");
-            }
-            else if (x == 9)
-            {
-                Console.Write(x + " e ");
-            }
-            else
-            {
-                Console.WriteLine(x + ".");
-            }
-            x++;
-        }
-
-        Console.WriteLine("");
-        testeString.TesteString("Esse é um teste das anotacoes  sobre strings!");
+        Console.WriteLine("Digite uma frase que será passada no TesteString:");
+        string frase;
+        frase = Console.ReadLine();
+        testeString.TesteString(frase);
 
 
 

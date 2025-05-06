@@ -2,6 +2,31 @@ namespace BasicCSharpProject.Services;
 
 public class Verificador
 {
+
+    public static void VerificarNome()
+    {
+        while (true)
+        {
+            Console.Write("Digite seu nome: ");
+            string? nome = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(nome))
+            {
+                Console.WriteLine("Nome inválido. Tente novamente!");
+                continue;
+            }
+
+            if (!nome.All(c => char.IsLetter(c) || char.IsWhiteSpace(c)))
+            {
+                Console.WriteLine("O nome deve conter apenas letras.");
+                continue;
+            }
+
+            Console.WriteLine($"Olá, {nome}. Seja bem-vindo!");
+            break;
+        }
+    }
+
     public static void VerificarIdade(int idade)
     {
         if (idade >= 18)
@@ -23,7 +48,7 @@ public class Verificador
             5 => "Quinta-feira",
             6 => "Sexta-feira",
             7 => "Sábado",
-            _ => "Dia Inválido"
+            _ => "um dia inválido"
         };
         Console.WriteLine($"Hoje é {nomeDia}.");
     }
